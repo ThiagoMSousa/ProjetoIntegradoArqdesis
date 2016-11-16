@@ -1,0 +1,14 @@
+body {
+  padding: 5em;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: left;
+}
+
+.message-success {
+	background-color: #8BC34A;
+	border-radius: 10%;
+	padding: 1em;
+	display: inline-block;
+}
