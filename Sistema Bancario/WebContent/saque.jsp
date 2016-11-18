@@ -10,8 +10,9 @@
 		<c:if test="${not empty message}">
 			<div class="message-success">
 				<p class="lead">${message}</p>
-				<p>R$: ${valor} sacado da sua conta</p>
-				<p>Seu novo saldo é R$: ${conta.saldo}</p>
+				<p> Valor SACADO: R$ ${valor} </p>
+				
+				<p>Novo Saldo: R$ ${conta.saldo}</p>
 			</div>
 		</c:if>
 
