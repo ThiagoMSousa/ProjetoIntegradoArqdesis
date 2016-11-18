@@ -10,8 +10,8 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Bem vindo ao AgioBank</h1>
-        <p class="lead">Seu gestor de Bancos<br> Sempre pronto para te ajudar.</p>
+        <h1>Bem vindo ao YourBank</h1>
+        <p class="lead">YourkBank sempre com você.</p>
       </div>
     </div>
       
