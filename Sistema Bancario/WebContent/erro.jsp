@@ -4,7 +4,7 @@
 <html>
 
 <head>
-	<title>Ooooops!!</title>
+	<title>Erro !!!</title>
 </head>
 
 
@@ -16,7 +16,7 @@
 	<div class="container">
 	
 	  <div class="starter-template">
-        	<h1>Algo de errado nao esta certo...</h1>
+        	<h1>Falha, erro inesperado.</h1>
         	<p class="lead">${message}</p>
       </div>
       
