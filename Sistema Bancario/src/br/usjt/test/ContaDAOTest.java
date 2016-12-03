@@ -23,7 +23,7 @@ public class ContaDAOTest {
 	public void setUp() throws Exception {
 		ConnectionFactory.openFactory();
 		dao = new ContaDAO();
-		dadosConta = new ContaTO(Banco.ITAU, 111, 2323, "José Pereira", new BigDecimal("90.00"));
+		dadosConta = new ContaTO(Banco.ITAU, 111, 2323, "Juan Silva", new BigDecimal("90.00"));
 	}
 
 	@Test
@@ -35,7 +35,7 @@ public class ContaDAOTest {
 	@Test
 	public void testGetNumeroContaFail() {
 		try {
-			ContaTO dadosConta2 = new ContaTO(Banco.ITAU, 111, 232323, "José Pereira", new BigDecimal("90"));
+			ContaTO dadosConta2 = new ContaTO(Banco.ITAU, 111, 232323, "Juan Silva", new BigDecimal("90"));
 			dao.getNumeroConta(dadosConta2);
 		} catch (RuntimeException e) {
 			assertEquals(e.getMessage(), "Conta não existente");
