@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\arqdsis\Desktop\Projeto sabado\ProjetoIntegrado\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="eee97c4cc74a379ff397db31b596bb5dba28427a">
+        <dex dex="C:\Users\arqdsis\Desktop\Projeto sabado\ProjetoIntegrado\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_d07891789f6dadfe7c405782dcbfb6bd0168ca2f.jar" />
+    </item>
+
+</items>
